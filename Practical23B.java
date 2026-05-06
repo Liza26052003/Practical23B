@@ -1,8 +1,9 @@
 public class Practical23B {
 
     /**
-     * Question 1: Prints the children for each parent node in the heap.
-     */
+    * Question1: print out the children for
+        each node in the heap
+    */
     public void print(String[] heap) {
         if (heap == null || heap.length <= 1) return;
 
@@ -27,8 +28,8 @@ public class Practical23B {
     }
 
     /**
-     * Question 2: Validates if the array is a valid min or max ternary heap.
-     */
+    code for a method to validate if it is a max or min heap 
+    */
     public boolean validate(String[] heap) {
         if (heap == null || heap.length <= 2) return true;
 
