@@ -1,9 +1,5 @@
 public class Practical23B {
-
-    /**
-    * Question1: print out the children for
-        each node in the heap
-    */
+   
     public void print(String[] heap) {
         if (heap == null || heap.length <= 1) return;
 
@@ -41,7 +37,7 @@ public class Practical23B {
             for (int k = -1; k <= 1; k++) { // Check children at 3i-1, 3i, 3i+1
                 int childIdx = 3 * i + k;
                 if (childIdx < heap.length) {
-                    // Min-heap: parent must be <= child
+      // Min-heap: parent must be <= child
                     if (heap[i].compareTo(heap[childIdx]) > 0) return false;
                 }
             }
@@ -54,7 +50,7 @@ public class Practical23B {
             for (int k = -1; k <= 1; k++) {
                 int childIdx = 3 * i + k;
                 if (childIdx < heap.length) {
-                    // Max-heap: parent must be >= child
+         // Max-heap: parent must be >= child
                     if (heap[i].compareTo(heap[childIdx]) < 0) return false;
                 }
             }
