@@ -1,3 +1,16 @@
+/**
+ * User prompt history:
+ * - what is a heap?
+ * - in main create test cases for the code in the Practical23B.java file
+ * - comment statements explaining each method
+ * - clc
+ * - why is the main file not debugging?
+ * - do that
+ * - all the prompts i have used pu them on the code
+ *
+ * This file implements the requested Java test harness for Practical23B,
+ * with sample ternary heap printing and validation cases.
+ */
 public class Main {
     /**
      * Entry point for the test harness.
